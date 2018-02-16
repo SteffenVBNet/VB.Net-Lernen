@@ -1,0 +1,12 @@
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\bin\Debug\Textfelder.exe.config
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\bin\Debug\Textfelder.exe
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\bin\Debug\Textfelder.pdb
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\bin\Debug\Textfelder.xml
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\obj\Debug\Textfelder.vbprojResolveAssemblyReference.cache
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\obj\Debug\Textfelder.Form1.resources
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\obj\Debug\Textfelder.Resources.resources
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\obj\Debug\Textfelder.vbproj.GenerateResource.Cache
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\obj\Debug\Textfelder.vbproj.CoreCompileInputs.cache
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\obj\Debug\Textfelder.exe
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\obj\Debug\Textfelder.xml
+C:\Users\Steffen\source\repos\Textfelder\Textfelder\obj\Debug\Textfelder.pdb

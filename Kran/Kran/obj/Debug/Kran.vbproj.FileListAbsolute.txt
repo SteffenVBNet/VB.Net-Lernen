@@ -22,3 +22,15 @@ F:\Visual Studio\Kran\Kran\obj\Debug\Kran.vbproj.CoreCompileInputs.cache
 F:\Visual Studio\Kran\Kran\obj\Debug\Kran.exe
 F:\Visual Studio\Kran\Kran\obj\Debug\Kran.xml
 F:\Visual Studio\Kran\Kran\obj\Debug\Kran.pdb
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\bin\Debug\Kran.exe.config
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\bin\Debug\Kran.exe
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\bin\Debug\Kran.pdb
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\bin\Debug\Kran.xml
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\obj\Debug\Kran.vbprojResolveAssemblyReference.cache
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\obj\Debug\Kran.Form1.resources
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\obj\Debug\Kran.Resources.resources
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\obj\Debug\Kran.vbproj.GenerateResource.Cache
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\obj\Debug\Kran.vbproj.CoreCompileInputs.cache
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\obj\Debug\Kran.exe
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\obj\Debug\Kran.xml
+C:\Users\Steffen\Source\Repos\VB.Net-Lernen\Kran\Kran\obj\Debug\Kran.pdb

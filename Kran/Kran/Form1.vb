@@ -7,6 +7,8 @@
         CmdAuslegerEin.Location = New Point(100, 140)
         CmdKranRechts.Location = New Point(100, 170)
         CmdKranLinks.Location = New Point(100, 200)
+        CmdKranHoch.Location = New Point(100, 230)
+        CmdKranRunter.Location = New Point(100, 260)
         'CmdHakenEin.Location = New Point(CmdHakenEin.Location.X, CmdHakenEin.Location.Y)
         'CmdHakenAus.Location = New Point(CmdHakenAus.Location.X = 200, CmdHakenAus.Location.Y)
     End Sub
