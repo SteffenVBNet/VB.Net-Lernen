@@ -1,0 +1,24 @@
+C:\Users\se\source\repos\Kran\Kran\bin\Debug\Kran.exe.config
+C:\Users\se\source\repos\Kran\Kran\bin\Debug\Kran.exe
+C:\Users\se\source\repos\Kran\Kran\bin\Debug\Kran.pdb
+C:\Users\se\source\repos\Kran\Kran\bin\Debug\Kran.xml
+C:\Users\se\source\repos\Kran\Kran\obj\Debug\Kran.Form1.resources
+C:\Users\se\source\repos\Kran\Kran\obj\Debug\Kran.Resources.resources
+C:\Users\se\source\repos\Kran\Kran\obj\Debug\Kran.vbproj.GenerateResource.Cache
+C:\Users\se\source\repos\Kran\Kran\obj\Debug\Kran.vbproj.CoreCompileInputs.cache
+C:\Users\se\source\repos\Kran\Kran\obj\Debug\Kran.exe
+C:\Users\se\source\repos\Kran\Kran\obj\Debug\Kran.xml
+C:\Users\se\source\repos\Kran\Kran\obj\Debug\Kran.pdb
+C:\Users\se\source\repos\Kran\Kran\obj\Debug\Kran.vbprojResolveAssemblyReference.cache
+F:\Visual Studio\Kran\Kran\bin\Debug\Kran.exe.config
+F:\Visual Studio\Kran\Kran\bin\Debug\Kran.exe
+F:\Visual Studio\Kran\Kran\bin\Debug\Kran.pdb
+F:\Visual Studio\Kran\Kran\bin\Debug\Kran.xml
+F:\Visual Studio\Kran\Kran\obj\Debug\Kran.vbprojResolveAssemblyReference.cache
+F:\Visual Studio\Kran\Kran\obj\Debug\Kran.Form1.resources
+F:\Visual Studio\Kran\Kran\obj\Debug\Kran.Resources.resources
+F:\Visual Studio\Kran\Kran\obj\Debug\Kran.vbproj.GenerateResource.Cache
+F:\Visual Studio\Kran\Kran\obj\Debug\Kran.vbproj.CoreCompileInputs.cache
+F:\Visual Studio\Kran\Kran\obj\Debug\Kran.exe
+F:\Visual Studio\Kran\Kran\obj\Debug\Kran.xml
+F:\Visual Studio\Kran\Kran\obj\Debug\Kran.pdb
