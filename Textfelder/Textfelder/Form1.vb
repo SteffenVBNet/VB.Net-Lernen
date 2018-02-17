@@ -21,7 +21,7 @@
 
     Private Sub NumHochRunter_ValueChanged(sender As Object, e As EventArgs) Handles NumHochRunter.ValueChanged
         'das ist nur ein test
-
+        LblAusgabe.Text = NumHochRunter.Value
     End Sub
 
 End Class
