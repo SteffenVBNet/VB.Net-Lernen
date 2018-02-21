@@ -15,9 +15,22 @@
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
-
+    'Select Case
     Private Sub CmdBerechnen2_Click(sender As Object, e As EventArgs) Handles CmdBerechnen2.Click
-
+        Dim X As Integer
+        X = TxtGehaltEingabe.Text
+        Select Case X
+            Case Is < 0
+                LblAusgabe.Text = "Falsche Eingabe"
+            Case 0 To 12000
+                LblAusgabe.Text = "bis 12k"
+            Case 12001 To 20000
+                LblAusgabe.Text = "bis 20k"
+            Case 20001 To 30000
+                LblAusgabe.Text = "bis 30k"
+            Case Is > 30000
+                LblAusgabe.Text = "Über 30k"
+        End Select
     End Sub
     'if Else berechnen
     Private Sub CmdBerechnen1_Click(sender As Object, e As EventArgs) Handles CmdBerechnen1.Click
