@@ -9,6 +9,7 @@
         CmdKranLinks.Location = New Point(100, 200)
         CmdKranHoch.Location = New Point(100, 230)
         CmdKranRunter.Location = New Point(100, 260)
+        TextBox4.Text = PanHaken.Height & " Haken Höhe"
         'CmdHakenEin.Location = New Point(CmdHakenEin.Location.X, CmdHakenEin.Location.Y)
         'CmdHakenAus.Location = New Point(CmdHakenAus.Location.X = 200, CmdHakenAus.Location.Y)
     End Sub
@@ -52,32 +53,60 @@
 
     End Sub
 
+    'Haken einfahren Funktion
     Private Sub CmdHakenEin_Click(sender As Object, e As EventArgs) Handles CmdHakenEin.Click
+        Dim X As Integer = 0
+        Dim Y As Integer = 0
+        Dim Z As Integer = 0
+        X = PanFundament.Location.Y
+        Y = PanHaken.Location.Y
+        Z = X - Y
+        TextBox1.Text = X & " Y Fundament"
+        TextBox2.Text = Y & " Y Haken"
+        TextBox3.Text = Z & " Differenz Fundament Haken"
 
-        PanHaken.Height = PanHaken.Height - 10
+        If (PanHaken.Height > 20) Then
+            PanHaken.Height = PanHaken.Height - 10
+        End If
+
+        TextBox4.Text = PanHaken.Height & " Haken Höhe"
 
     End Sub
 
+    'Haken Ausfahren Funktionen
     Private Sub CmdHakenAus_Click(sender As Object, e As EventArgs) Handles CmdHakenAus.Click
+        Dim X As Integer = 0
+        Dim Y As Integer = 0
+        Dim Z As Integer = 0
+        X = PanFundament.Location.Y
+        Y = PanHaken.Location.Y
+        Z = X - Y
+        TextBox1.Text = X & " Y Fundament"
+        TextBox2.Text = Y & " Y Haken"
+        TextBox3.Text = Z & " Differenz Fundament Haken"
 
-        PanHaken.Height = PanHaken.Height + 10
+        If (PanHaken.Height < Z) Then
+            PanHaken.Height = PanHaken.Height + 10
+        End If
+
+        TextBox4.Text = PanHaken.Height & " Haken Höhe"
 
     End Sub
 
     Private Sub CmdAuslegerAus_Click(sender As Object, e As EventArgs) Handles CmdAuslegerAus.Click
-
-        PanAusleger.Width = PanAusleger.Width + 10
-        PanAusleger.Location = New Point(PanAusleger.Location.X - 10, PanAusleger.Location.Y)
-        PanHaken.Location = New Point(PanHaken.Location.X - 10, PanHaken.Location.Y)
-
+        If (PanAusleger.Width <= 100) Then
+            PanAusleger.Width = PanAusleger.Width + 10
+            PanAusleger.Location = New Point(PanAusleger.Location.X - 10, PanAusleger.Location.Y)
+            PanHaken.Location = New Point(PanHaken.Location.X - 10, PanHaken.Location.Y)
+        End If
     End Sub
 
     Private Sub CmdAuslegerEin_Click(sender As Object, e As EventArgs) Handles CmdAuslegerEin.Click
-
-        PanAusleger.Width = PanAusleger.Width - 10
-        PanAusleger.Location = New Point(PanAusleger.Location.X + 10, PanAusleger.Location.Y)
-        PanHaken.Location = New Point(PanHaken.Location.X + 10, PanHaken.Location.Y)
-
+        If (PanAusleger.Width > 60) Then
+            PanAusleger.Width = PanAusleger.Width - 10
+            PanAusleger.Location = New Point(PanAusleger.Location.X + 10, PanAusleger.Location.Y)
+            PanHaken.Location = New Point(PanHaken.Location.X + 10, PanHaken.Location.Y)
+        End If
     End Sub
 
     Private Sub CmdKranRechts_Click(sender As Object, e As EventArgs) Handles CmdKranRechts.Click
@@ -114,6 +143,38 @@
         PanFundament.Location = New Point(PanFundament.Location.X, PanFundament.Location.Y + 10)
         PanHaken.Location = New Point(PanHaken.Location.X, PanHaken.Location.Y + 10)
         PanSenkrechtesHauptelement.Location = New Point(PanSenkrechtesHauptelement.Location.X, PanSenkrechtesHauptelement.Location.Y + 10)
+
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
+    End Sub
+
+    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+
+    End Sub
+
+    Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
+
+    End Sub
+
+    Private Sub TextBox4_TextChanged(sender As Object, e As EventArgs) Handles TextBox4.TextChanged
+
+    End Sub
+
+    Private Sub TextBox4_TextChanged_1(sender As Object, e As EventArgs) Handles TextBox4.TextChanged
+
+    End Sub
+
+    Private Sub TextBox2_TextChanged_1(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+
+    End Sub
+
+    Private Sub TextBox3_TextChanged_1(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
+
+    End Sub
+
+    Private Sub TextBox1_TextChanged_1(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
 
     End Sub
 End Class
