@@ -14,7 +14,7 @@
         Gehalt = TxtEinkommen.Text
 
         If Gehalt > 260533 Then
-
+            Gehalt = Gehalt - 260533
             Ausgabe = Ueber260533(Gehalt)
             TxtAusgabe.Text = Ausgabe
 
@@ -23,7 +23,10 @@
         ElseIf Gehalt > 13996 Then
 
         ElseIf Gehalt > 9000 Then
+            Gehalt = Gehalt - 9000
             Ausgabe = Ueber9000(Gehalt)
+            TxtAusgabe.Text = Ausgabe
+
         ElseIf Gehalt <= 9000 Then
             TxtAusgabe.Text = "Im Grundfreibetrag"
 
@@ -39,15 +42,16 @@
     End Sub
 
     Private Function Ueber9000(Gehalt) As Double
-        Dim Rueckgabe As Double
-        Rueckgabe = Gehalt - 9000
-        Rueckgabe = Fix(Gehalt)
-
-        Return 0
+        Dim Rueckgabe, Versteuern As Double
+        Dim y As Double
+        Versteuern = Fix(Gehalt)
+        y = Versteuern / 10000
+        Rueckgabe = (997.8 * y + 1400) * y
+        Return Rueckgabe
     End Function
+
     Private Function Ueber260533(Gehalt) As Double
         Dim Rueckgabe As Double
-        Rueckgabe = Gehalt - 260533
         Rueckgabe = Fix(Rueckgabe)
         'Die Größe „x“ ist das auf einen vollen Euro-Betrag abgerundete zu versteuernde Einkommen. 6Der sich ergebende Steuerbetrag ist auf den nächsten vollen Euro-Betrag abzurunden.
         Rueckgabe = 0.45 * Rueckgabe - 16437.7
