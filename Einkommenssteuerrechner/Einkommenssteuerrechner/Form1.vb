@@ -41,21 +41,44 @@
 
     End Sub
 
-    Private Function Ueber9000(Gehalt) As Double
-        Dim Rueckgabe, Versteuern As Double
-        Dim y As Double
-        Versteuern = Fix(Gehalt)
-        y = Versteuern / 10000
-        Rueckgabe = (997.8 * y + 1400) * y
-        Return Rueckgabe
-    End Function
 
+    'Methoden
+
+    '260k Methode
     Private Function Ueber260533(Gehalt) As Double
         Dim Rueckgabe As Double
-        Rueckgabe = Fix(Rueckgabe)
+        Rueckgabe = Fix(Gehalt)
         'Die Größe „x“ ist das auf einen vollen Euro-Betrag abgerundete zu versteuernde Einkommen. 6Der sich ergebende Steuerbetrag ist auf den nächsten vollen Euro-Betrag abzurunden.
         Rueckgabe = 0.45 * Rueckgabe - 16437.7
         Return Rueckgabe
     End Function
+
+    'von 54.950-260.532
+    Private Function Bis260532(Gehalt)
+        Dim Rueckgabe As Double
+        Rueckgabe = Fix(Gehalt)
+        Rueckgabe = 0.42 * Rueckgabe - 8621.75
+        Return Rueckgabe
+    End Function
+
+    'von 13.997-54.949
+    Private Function Bis54949(Gehalt)
+        Dim Rueckgabe As Double
+        'Die Größe „Rueckgabe“ ist ein Zehntausendstel des 13 996 Euro übersteigenden Teils des auf einen vollen Euro-Betrag abgerundeten zu versteuernden Einkommen
+        Rueckgabe = Fix(Gehalt) / 10000
+        Rueckgabe = (220.13 * Rueckgabe + 2397) * Rueckgabe + 948.49
+        Return Rueckgabe
+    End Function
+
+    'von 9.001-13.996
+    Private Function Bis13996(Gehalt)
+        Dim Rueckgabe As Double
+        'Die Größe „Rueckgabe“ ist ein Zehntausendstel des den Grundfreibetrag übersteigenden Teils des auf einen vollen Euro-Betrag abgerundeten zu versteuernden Einkommens
+        Rueckgabe = Fix(Gehalt) / 10000
+        Rueckgabe = (997.8 * Rueckgabe + 1400) * Rueckgabe
+        Return Rueckgabe
+    End Function
+
+
 
 End Class
